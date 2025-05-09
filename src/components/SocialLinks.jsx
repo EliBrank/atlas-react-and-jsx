@@ -6,7 +6,7 @@ const SocialLinks = () => {
     <a href="https://www.linkedin.com/in/elias-brinkman/" target="_blank">
       <img src={linkedinIcon} alt="LinkedIn Icon" />
     </a>
-    <a href="https://www.github.com/elibrank" target="_blank">
+    <a href="https://github.com/EliBrank/atlas-react-and-jsx" target="_blank">
       <img src={githubIcon} alt="GitHub Icon" />
     </a>
   </div>
