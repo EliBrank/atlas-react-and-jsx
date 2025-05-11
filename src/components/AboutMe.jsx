@@ -1,7 +1,8 @@
-const AboutMe = () => {
+const AboutMe = ({children}) => {
   return (
     <div className="about-me">
-      <img src="" alt="" />
+      <img src="/headshot.webp" alt="Elias Brinkman headshot" />
+      <p>{children}</p>
     </div>
   );
 }
