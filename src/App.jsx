@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Section from "./components/Section";
+import HelpfulResource from "./components/HelpfulResource";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
           <li>JSX syntax combines inuitive understanding of JavaScript and HTML</li>
           <li>Endlessly flexbible structure enabled via component-based architecture</li>
         </ul>
+      </Section>
+      <Section title="Helpful Resources">
+        <HelpfulResource link="http://" label="test" />
       </Section>
     </>
   );
