@@ -19,7 +19,9 @@ function App() {
         </ul>
       </Section>
       <Section title="Helpful Resources">
-        <HelpfulResource link="http://" label="test" />
+        <HelpfulResource link="https://react.dev/learn" label="Official React Quick Start Guide" />
+        <HelpfulResource link="https://egghead.io/courses/the-beginner-s-guide-to-react" label="Egghead.io Introductory Video Course" />
+        <HelpfulResource link="https://www.codecademy.com/learn/react-101" label="Codecademy Interactive Course" />
       </Section>
     </>
   );
