@@ -1,6 +1,8 @@
 import Header from "./components/Header";
 import Section from "./components/Section";
 import HelpfulResource from "./components/HelpfulResource";
+import AboutMe from "./components/AboutMe";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -23,6 +25,10 @@ function App() {
         <HelpfulResource link="https://egghead.io/courses/the-beginner-s-guide-to-react" label="Egghead.io Introductory Video Course" />
         <HelpfulResource link="https://www.codecademy.com/learn/react-101" label="Codecademy Interactive Course" />
       </Section>
+      <AboutMe>
+        Hi! I'm Elias Brinkman, a front-end developer with a background in digital art. I'm currently a 5th trimester student at Atlas School, in the Full-Stack Development spec. I enjoy the puzzle-solving aspects of low-level programming, but I also love any chance to add interactivity and visual interest to my projects, which most recently manifested in my deep dive into Three.js - a JavaScript library enabling 3D graphics and animation in web pages via WebGL. After school I hope to leverage my experience in 3D modeling and design in some way, but I'm open to a variety of applications beyond that, and I think that any work involving education is also deeply appealing! Outside of programming, I also enjoy collecting vinyl records and playing indie video games.
+      </AboutMe>
+      <Footer />
     </>
   );
 }
