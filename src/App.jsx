@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
+    <div className="max-w-250 mx-auto my-0 p-4">
       <Header />
       <Section title="What is react?">
         React is a JavaScript front-end library designed for creating user interfaces. It enables developers to create reusable components which can then manage state independently of one another, allowing for efficient dynamic and interactive applications. React can be used in a variety of contexts: for developing single-page applications, mobile apps (using React Native), and can even be further extended to a full framework by integrating with tools like Next.JS.
@@ -29,7 +29,7 @@ function App() {
         Hi! I'm Elias Brinkman, a front-end developer with a background in digital art. I'm currently a 5th trimester student at Atlas School, in the Full-Stack Development spec. I enjoy the puzzle-solving aspects of low-level programming, but I also love any chance to add interactivity and visual interest to my projects, which most recently manifested in my deep dive into Three.js - a JavaScript library enabling 3D graphics and animation in web pages via WebGL. After school I hope to leverage my experience in 3D modeling and design in some way, but I'm open to a variety of applications beyond that, and I think that any work involving education is also deeply appealing! Outside of programming, I also enjoy collecting vinyl records and playing indie video games.
       </AboutMe>
       <Footer />
-    </>
+    </div>
   );
 }
 
