@@ -12,12 +12,12 @@ function App() {
         React is a JavaScript front-end library designed for creating user interfaces. It enables developers to create reusable components which can then manage state independently of one another, allowing for efficient dynamic and interactive applications. React can be used in a variety of contexts: for developing single-page applications, mobile apps (using React Native), and can even be further extended to a full framework by integrating with tools like Next.JS.
       </Section>
       <Section title="Benefits of React">
-        <ul>
-          <li>Declarative approach scales well with larger projects</li>
-          <li>Virtual DOM increases performance by limiting DOM manipulations</li>
-          <li>Extensive ecosystem of libraries and tools, with large community support</li>
-          <li>JSX syntax combines inuitive understanding of JavaScript and HTML</li>
-          <li>Endlessly flexbible structure enabled via component-based architecture</li>
+        <ul className="p-0 m-0">
+          <li className="listBullet listItem">Declarative approach scales well with larger projects</li>
+          <li className="listBullet listItem">Virtual DOM increases performance by limiting DOM manipulations</li>
+          <li className="listBullet listItem">Extensive ecosystem of libraries and tools, with large community support</li>
+          <li className="listBullet listItem">JSX syntax combines inuitive understanding of JavaScript and HTML</li>
+          <li className="listBullet listItem">Endlessly flexbible structure enabled via component-based architecture</li>
         </ul>
       </Section>
       <Section title="Helpful Resources">

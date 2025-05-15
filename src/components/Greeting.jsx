@@ -6,10 +6,11 @@ const Greeting = () => {
   const timeOfDay = getTimeOfDay(currentTime);
   // it is daytime if it is morning or afternoon
   const isDaytime = timeOfDay == 'Morning' || timeOfDay == 'Afternoon' ? true : false;
-  return <div className="greeting">
+  return <div className="flex items-center">
     <img
       src={isDaytime ? dayIcon : nightIcon}
       alt={isDaytime ? "sun icon" : "moon icon"}
+      className="w-12"
     />
     <h1>Good {timeOfDay}!</h1>
   </div>;

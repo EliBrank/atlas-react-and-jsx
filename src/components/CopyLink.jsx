@@ -5,7 +5,7 @@ const CopyLink = ({link}) => {
     <img
       src={copyIcon}
       alt="Copy file icon"
-      className="copy"
+      className="ml-2 cursor-pointer"
       onClick={() => {copyToClipboard(link)}}
     />
   );

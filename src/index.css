@@ -1,9 +1,40 @@
-@import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-off-white-light: #fffcf2;
+  --color-blue: #00003c;
+  --color-blue-light: #64648c;
+  --color-beige: #f7f0dc;
+  --color-teal: #1ed2af;
+  --color-red: #d00414;
+  --color-light-beige: #f7ede8;
+  --color-yellow: #edc14b;
+  --color-white: white;
+  --color-beige-background: rgba(240, 220, 210, 0.5);
+  --color-offwhite: #fef9e6;
+  --color-transparent: transparent;
+}
+
+@layer base {
+  body {
+    @apply bg-blue text-offwhite;
+  }
+}
+
+@layer components {
+  .listBullet {
+    @apply before:flex before:items-center before:justify-center before:w-5 before:h-5 before:mr-4 before:content-[url("./assets/check.svg")]
+  }
+
+  .listItem {
+    @apply list-none flex items-center pt-4 first:pt-0
+  }
+}
 
 :root {
   font-family: "Poppins", sans-serif;
-  --off-white-light: #fffcf2;
+  /* --off-white-light: #fffcf2;
   --blue: #00003c;
   --blue-light: #64648c;
   --beige: #f7f0dc;
@@ -17,7 +48,7 @@
   --transparent: transparent;
 
   background: var(--blue);
-  color: var(--offwhite);
+  color: var(--offwhite); */
 }
 
 /* .app, .App { */
@@ -32,41 +63,41 @@
 /*   align-items: center; */
 /* } */
 
-.greeting {
+/* .greeting {
   display: flex;
   align-items: center;
-}
+} */
 
-.greeting img {
+/* .greeting img {
   width: 50px;
-}
+} */
 
-.social-links a {
+/* .social-links a {
   margin-right: 1rem;
-}
+} */
 
-.about-me {
+/* .about-me {
   background: var(--offwhite);
   color: var(--blue);
   padding: 2rem;
   border-radius: 30px;
   display: flex;
   align-items: center;
-}
+} */
 
-.about-me img {
+/* .about-me img {
   width: 200px;
   border-radius: 30px;
   margin-right: 2rem;
-}
+} */
 
-li::marker {
+/* li::marker {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
-li::before {
+/* li::before {
   content: url("./assets/check.svg");
   display: flex;
   align-items: center;
@@ -74,50 +105,51 @@ li::before {
   width: 20px;
   height: 20px;
   margin-right: 1rem;
-}
-ul {
+} */
+
+/* ul {
   padding: 0;
   margin: 0;
-}
+} */
 
-li {
+/* li {
   list-style: none;
   display: flex;
   align-items: center;
   padding-top: 1rem;
-}
+} */
 
-li:first-child {
+/* li:first-child {
   padding-top: 0;
-}
+} */
 
-.helpful-resource:last-child {
+/* .helpful-resource:last-child {
   margin-bottom: 2rem;
-}
+} */
 
-.helpful-resource {
+/* .helpful-resource {
   margin-top: 1rem;
   display: flex;
   align-items: center;
   font-weight: bold;
-}
+} */
 
-.helpful-resource,
+/* .helpful-resource,
 .helpful-resource a {
   color: var(--offwhite);
   text-decoration: none;
   display: flex;
-}
+} */
 
-.helpful-resource img {
+/* .helpful-resource img {
   margin-left: 0.5rem;
-}
+} */
 
-.copy {
+/* .copy {
   cursor: pointer;
-}
+} */
 
-footer {
+/* footer {
   padding: 0 3rem 3rem 3rem;
   margin-top: 3rem;
   display: flex;
@@ -125,26 +157,26 @@ footer {
   align-items: center;
   justify-content: center;
   border-top: 1px solid var(--offwhite);
-}
+} */
 
-footer ul {
+/* footer ul {
   list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0;
-}
+} */
 
-footer ul li::before {
+/* footer ul li::before {
   content: none;
-}
+} */
 
-footer li,
+/* footer li,
 footer li:first-child {
   padding: 1rem;
-}
+} */
 
-footer a {
+/* footer a {
   color: var(--offwhite);
   text-decoration: none;
-}
+} */
